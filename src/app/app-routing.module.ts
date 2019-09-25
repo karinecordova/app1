@@ -14,8 +14,12 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+<<<<<<< HEAD
   },
   { path: 'maisvendidos', loadChildren: './maisvendidos/maisvendidos.module#MaisvendidosPageModule' }
+=======
+  }
+>>>>>>> 80cf1dcab668a53b07c0ef766693bd53e88f01a2
 ];
 
 @NgModule({
